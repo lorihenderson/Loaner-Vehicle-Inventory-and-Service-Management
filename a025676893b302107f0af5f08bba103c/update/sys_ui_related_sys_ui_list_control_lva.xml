@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_ui_list_control" version="2" view="lva">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="List Control - LVA" name="sys_ui_list_control" related_list="NULL" sys_domain="global" view="c6227878933b02107f0af5f08bba10e7">d2af0fbe937302107f0af5f08bba109f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-07 18:33:42</sys_created_on>
+            <sys_id>9eaf0fbe937302107f0af5f08bba109f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-07 18:33:42</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>List Control - LVA</calculated_name>
+            <filter/>
+            <name>sys_ui_list_control</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-07 18:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2af0fbe937302107f0af5f08bba109f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>List Control - LVA</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_984902_lva">a025676893b302107f0af5f08bba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">a025676893b302107f0af5f08bba103c</sys_scope>
+            <sys_update_name>sys_ui_related_sys_ui_list_control_lva</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-07 18:33:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="LVA" name="lva">c6227878933b02107f0af5f08bba10e7</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
