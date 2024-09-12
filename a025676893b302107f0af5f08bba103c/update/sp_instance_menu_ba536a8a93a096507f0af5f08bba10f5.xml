@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget/>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 14:12:03</sys_created_on>
+        <sys_id>ba536a8a93a096507f0af5f08bba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Warehouse Header</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_984902_lva">a025676893b302107f0af5f08bba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">a025676893b302107f0af5f08bba103c</sys_scope>
+        <sys_update_name>sp_instance_menu_ba536a8a93a096507f0af5f08bba10f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 14:12:03</sys_updated_on>
+        <title>Vehicle Warehouse Header</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba536a8a93a096507f0af5f08bba10f5"/>
+</record_update>

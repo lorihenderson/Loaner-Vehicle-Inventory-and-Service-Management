@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <display_field/>
+        <field_list>number,vehicle_description,vehicle_make,vehicle_model,vehicle_year</field_list>
+        <filter/>
+        <glyph>inbox</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b3c38b42936496507f0af5f08bba1016</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 16:37:32</sys_created_on>
+        <sys_id>7db40f82936496507f0af5f08bba1069</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Vehicles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_984902_lva">a025676893b302107f0af5f08bba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">a025676893b302107f0af5f08bba103c</sys_scope>
+        <sys_update_name>sp_instance_table_7db40f82936496507f0af5f08bba1069</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:58:47</sys_updated_on>
+        <table>x_984902_lva_loaner_vehicle_catalog</table>
+        <title>Vehicles</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=7db40f82936496507f0af5f08bba1069"/>
+</record_update>

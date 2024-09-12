@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary: #c45632;</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="loaner_vehicle_home">a213268a93a096507f0af5f08bba1064</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo>37e366ca93a096507f0af5f08bba103f</logo>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Vehicle Warehouse Header">ba536a8a93a096507f0af5f08bba10f5</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 14:12:41</sys_created_on>
+        <sys_id>7662664a93a096507f0af5f08bba10ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Vehicle Warehouse</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_984902_lva">a025676893b302107f0af5f08bba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">a025676893b302107f0af5f08bba103c</sys_scope>
+        <sys_update_name>sp_portal_7662664a93a096507f0af5f08bba10ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 14:16:36</sys_updated_on>
+        <theme display_value="Vehicle Warehouse">1c732e8a93a096507f0af5f08bba101a</theme>
+        <title>Vehicle Warehouse</title>
+        <ts_index_group/>
+        <url_suffix>lvi</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=7662664a93a096507f0af5f08bba10ea"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ccffff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logo</file_name>
+        <hash>3e1839209e85966c3e58befe00d28425968b69f9dff0e36f9bc7360f03095bbd</hash>
+        <image_height>201</image_height>
+        <image_width>251</image_width>
+        <size_bytes>2253</size_bytes>
+        <size_compressed>2228</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 14:14:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37e366ca93a096507f0af5f08bba103f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 14:14:19</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>7662664a93a096507f0af5f08bba10ea</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="37e366ca93a096507f0af5f08bba103f">37e366ca93a096507f0af5f08bba103f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 14:14:18</sys_created_on>
+        <sys_id>77e366ca93a096507f0af5f08bba103f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2960</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="37e366ca93a096507f0af5f08bba103f">37e366ca93a096507f0af5f08bba103f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 14:14:18</sys_created_on>
+        <sys_id>f7e366ca93a096507f0af5f08bba103f</sys_id>
+    </sys_attachment_doc>
+</record_update>

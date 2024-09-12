@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_984902_lva_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_984902_lva_vehicle_tracker">vehicle_statusCHANGESTOSent for Servicing^EQ<item display_value="Sent for Servicing" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Sent for Servicing"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Checks for Open Servicing Ticket</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr = new GlideRecord('x_984902_lva_vehicle_servicing');
+	gr.addQuery('vehicle_tracker', current.sys_id);
+	gr.addQuery('tracker_status', 'open');
+	gr.query();
+
+	if(!gr.next()) {
+		var nGr = new GlideRecord('x_984902_lva_vehicle_servicing');
+		var newDate = new GlideDate();
+
+		nGr.initialize();
+		nGr.setValue('vehicle_tracker', current.sys_id);
+		nGr.setValue('vehicle', current.vehicle);
+		nGr.setValue('vehicle_status', 'In Service');
+		nGr.setValue('date_sent_for_servicing', newDate.getValue());
+		nGr.setValue('ticket_status', 'Open');
+		nGr.insert();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 16:35:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27f7281393d8d6107f0af5f08bba1002</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Checks for Open Servicing Ticket</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_984902_lva">a025676893b302107f0af5f08bba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">a025676893b302107f0af5f08bba103c</sys_scope>
+        <sys_update_name>sys_script_27f7281393d8d6107f0af5f08bba1002</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 19:01:51</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=27f7281393d8d6107f0af5f08bba1002"/>
+</record_update>
